@@ -1,0 +1,11 @@
+server:
+  port: 8082
+#spring:
+#  main:
+#    banner-mode: console
+#  banner:
+#    location: https://giot-file.oss-cn-shenzhen.aliyuncs.com/avator/2022-09-15/default.jpg
+#logging:
+#  level: debug
+#  pattern:
+#    dateformat: yyyy-MM-dd

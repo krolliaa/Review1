@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/01_springboot_createB/01_springboot_createB.iml" filepath="$PROJECT_DIR$/01_springboot_createB/01_springboot_createB.iml" />
       <module fileurl="file://$PROJECT_DIR$/01_springboot_createC/01_springboot_createC.iml" filepath="$PROJECT_DIR$/01_springboot_createC/01_springboot_createC.iml" />
       <module fileurl="file://$PROJECT_DIR$/01_springboot_createD/01_springboot_createD.iml" filepath="$PROJECT_DIR$/01_springboot_createD/01_springboot_createD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_springboot_config/02_springboot_config.iml" filepath="$PROJECT_DIR$/02_springboot_config/02_springboot_config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
     </modules>
   </component>
