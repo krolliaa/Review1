@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbd8d2ba-f339-4f39-9bf1-818654e86e8f" name="Changes" comment="SpringBoot 整合第三方技术：&#10;1. 整合 junit：@SpringBootTest + @Test&#10;2. 整合 mybatis：@Mapper + @Select&#10;3. 整合 mybatis-plus：IService&lt;T&gt; + ServiceImpl&lt;M, T&gt;&#10;4. 整合 druid">
-      <change afterPath="$PROJECT_DIR$/08_springboot_package/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_springboot_package/src/main/java/com/kk/package_package/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_springboot_package/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_springboot_package/src/test/java/com/kk/package_package/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_springboot_package/target/package_package-0.0.1-SNAPSHOT.jar" afterDir="false" />
+    <list default="true" id="bbd8d2ba-f339-4f39-9bf1-818654e86e8f" name="Changes" comment="SpringBoot 打包：&#10;1. 打包需要使用到 spring-boot-maven-plugin 插件，否则打出来的包缺少必要的 start-class 和 main-class 无法正常启动&#10;2. 使用 java -jar 即可启动打包的 jar 包">
+      <change afterPath="$PROJECT_DIR$/09_springboot_log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_springboot_log/src/main/java/com/kk/log/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_springboot_log/src/main/java/com/kk/log/controller/LogController1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_springboot_log/src/main/java/com/kk/log/controller/LogController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_springboot_log/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_springboot_log/src/test/java/com/kk/log/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -87,6 +88,7 @@
       <recent name="E:\2022年\学习\计算机学习\Java\Review1\SpringBoot\02_springboot_config\src\main\resources\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kk.log.controller" />
       <recent name="com.kk.mybatis_plus.pojo" />
     </key>
   </component>
@@ -97,7 +99,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (7)">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="05_springboot_mybatis" />
       <extension name="coverage">
@@ -114,74 +116,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="01_springboot_createB" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.create.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="02_springboot_config" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.config.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="01_springboot_createA" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.create.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="01_springboot_createC" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.create.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="04_springboot_junit" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.junit.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (6)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="05_springboot_mybatis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.mybatis.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (7)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="06_springboot_mybatis_plus" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.mybatis_plus.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (8)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="07_springboot_druid" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.druid.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (9)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="08_springboot_package" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.package_package.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="03_springboot_configuration" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.configuration.Application" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="09_springboot_log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.log.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,18 +132,10 @@
     <list>
       <item itemvalue="JUnit.ApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.Application (1)" />
-      <item itemvalue="Spring Boot.Application (2)" />
-      <item itemvalue="Spring Boot.Application (3)" />
-      <item itemvalue="Spring Boot.Application (4)" />
-      <item itemvalue="Spring Boot.Application (5)" />
-      <item itemvalue="Spring Boot.Application (6)" />
-      <item itemvalue="Spring Boot.Application (7)" />
-      <item itemvalue="Spring Boot.Application (8)" />
-      <item itemvalue="Spring Boot.Application (9)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.ApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -216,7 +151,7 @@
       <workItem from="1663258335545" duration="5424000" />
       <workItem from="1663300608200" duration="6816000" />
       <workItem from="1663312249491" duration="55000" />
-      <workItem from="1663312314847" duration="629000" />
+      <workItem from="1663312314847" duration="2348000" />
     </task>
     <task id="LOCAL-00001" summary="多环境配置">
       <created>1663300754923</created>
@@ -246,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663312318864</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SpringBoot 打包：&#10;1. 打包需要使用到 spring-boot-maven-plugin 插件，否则打出来的包缺少必要的 start-class 和 main-class 无法正常启动&#10;2. 使用 java -jar 即可启动打包的 jar 包">
+      <created>1663312966138</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663312966138</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +212,7 @@
     <MESSAGE value="读取配置文件：&#10;1.@Value(value = &quot;${}&quot;)&#10;2.Environment.getProperty(&quot;&quot;)&#10;4.@ConfigurationProperties + @Component ---&gt; 通过 Setter 注入配置信息所以需要 + @Data" />
     <MESSAGE value="SpringBoot 整合第三方技术：&#10;1. 整合 junit：@SpringBootTest + @Test&#10;2. 整合 mybatis：@Mapper + @Select&#10;3. 整合 mybatis-plus：IService&lt;T&gt; + ServiceImpl&lt;M, T&gt;" />
     <MESSAGE value="SpringBoot 整合第三方技术：&#10;1. 整合 junit：@SpringBootTest + @Test&#10;2. 整合 mybatis：@Mapper + @Select&#10;3. 整合 mybatis-plus：IService&lt;T&gt; + ServiceImpl&lt;M, T&gt;&#10;4. 整合 druid" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 整合第三方技术：&#10;1. 整合 junit：@SpringBootTest + @Test&#10;2. 整合 mybatis：@Mapper + @Select&#10;3. 整合 mybatis-plus：IService&lt;T&gt; + ServiceImpl&lt;M, T&gt;&#10;4. 整合 druid" />
+    <MESSAGE value="SpringBoot 打包：&#10;1. 打包需要使用到 spring-boot-maven-plugin 插件，否则打出来的包缺少必要的 start-class 和 main-class 无法正常启动&#10;2. 使用 java -jar 即可启动打包的 jar 包" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 打包：&#10;1. 打包需要使用到 spring-boot-maven-plugin 插件，否则打出来的包缺少必要的 start-class 和 main-class 无法正常启动&#10;2. 使用 java -jar 即可启动打包的 jar 包" />
   </component>
 </project>
