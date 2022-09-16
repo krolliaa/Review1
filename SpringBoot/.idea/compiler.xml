@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -11,6 +12,7 @@
         <module name="01_springboot_createB" />
         <module name="01_springboot_createC" />
         <module name="01_springboot_createA" />
+        <module name="03_springboot_configuration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -19,6 +21,7 @@
       <module name="01_springboot_createC" target="1.8" />
       <module name="01_springboot_createD" target="1.8" />
       <module name="02_springboot_config" target="1.8" />
+      <module name="03_springboot_configuration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -27,6 +30,7 @@
       <module name="01_springboot_createC" options="-parameters" />
       <module name="01_springboot_createD" options="-parameters" />
       <module name="02_springboot_config" options="-parameters" />
+      <module name="03_springboot_configuration" options="-parameters" />
     </option>
   </component>
 </project>

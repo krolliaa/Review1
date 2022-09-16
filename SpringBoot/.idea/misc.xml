@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/01_springboot_createC/pom.xml" />
         <option value="$PROJECT_DIR$/01_springboot_createD/pom.xml" />
         <option value="$PROJECT_DIR$/02_springboot_config/pom.xml" />
+        <option value="$PROJECT_DIR$/03_springboot_configuration/pom.xml" />
       </list>
     </option>
   </component>
