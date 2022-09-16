@@ -5,37 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd8d2ba-f339-4f39-9bf1-818654e86e8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_65.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_65.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/java/com/kk/config/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/java/com/kk/config/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/config/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/config/ebank-server.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/config/ebank.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/ebank-server.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/ebank.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/test/java/com/kk/config/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/application-main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/application-pro.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_springboot_config/src/main/resources/application-test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02_springboot_config/src/main/resources/aaconfig" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02_springboot_config/src/main/resources/application-test.yml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32205883" />
@@ -99,8 +72,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\2022年\学习\计算机学习\Java\Review1\SpringBoot\02_springboot_config\src\main\resources\aaconfig" />
       <recent name="E:\2022年\学习\计算机学习\Java\Review1\SpringBoot\02_springboot_config\src\main\resources" />
+      <recent name="E:\2022年\学习\计算机学习\Java\Review1\SpringBoot\02_springboot_config\src\main\resources\aaconfig" />
       <recent name="E:\2022年\学习\计算机学习\Java\Review1\SpringBoot\02_springboot_config\src\main\resources\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -118,8 +91,6 @@
     <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="02_springboot_config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.config.Application" />
-      <option name="VM_PARAMETERS" value="-Dspring.config.location=classpath:/ebank.yml" />
-      <option name="PROGRAM_PARAMETERS" value="--server.port=80" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
@@ -136,6 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663258334089</updated>
       <workItem from="1663258335545" duration="5424000" />
+      <workItem from="1663300608200" duration="116000" />
     </task>
     <servers />
   </component>
@@ -152,6 +124,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
