@@ -4,15 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbd8d2ba-f339-4f39-9bf1-818654e86e8f" name="Changes" comment="多环境配置">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_springboot_configuration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_springboot_configuration/src/main/java/com/kk/configuration/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_springboot_configuration/src/main/java/com/kk/configuration/configuration/MyUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_springboot_configuration/src/main/java/com/kk/configuration/controller/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_springboot_configuration/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_springboot_configuration/src/test/java/com/kk/configuration/ApplicationTests.java" afterDir="false" />
+    <list default="true" id="bbd8d2ba-f339-4f39-9bf1-818654e86e8f" name="Changes" comment="读取配置文件：&#10;1.@Value(value = &quot;${}&quot;)&#10;2.Environment.getProperty(&quot;&quot;)&#10;4.@ConfigurationProperties + @Component ---&gt; 通过 Setter 注入配置信息所以需要 + @Data">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_6_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_6_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_6_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_springboot_junit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_springboot_junit/src/main/java/com/kk/junit/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_springboot_junit/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_springboot_junit/src/test/java/com/kk/junit/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_springboot_mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_springboot_mybatis/src/main/java/com/kk/mybatis/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_springboot_mybatis/src/main/java/com/kk/mybatis/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_springboot_mybatis/src/main/java/com/kk/mybatis/mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_springboot_mybatis/src/main/java/com/kk/mybatis/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_springboot_mybatis/src/main/java/com/kk/mybatis/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_springboot_mybatis/src/main/java/com/kk/mybatis/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_springboot_mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_springboot_mybatis/src/test/java/com/kk/mybatis/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_springboot_mybatis_plus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_springboot_mybatis_plus/src/main/java/com/kk/mybatis_plus/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_springboot_mybatis_plus/src/main/java/com/kk/mybatis_plus/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_springboot_mybatis_plus/src/main/java/com/kk/mybatis_plus/mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_springboot_mybatis_plus/src/main/java/com/kk/mybatis_plus/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_springboot_mybatis_plus/src/main/java/com/kk/mybatis_plus/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_springboot_mybatis_plus/src/main/java/com/kk/mybatis_plus/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_springboot_mybatis_plus/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_springboot_mybatis_plus/src/test/java/com/kk/mybatis_plus/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -27,6 +62,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,7 +108,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02_springboot_config/src/main/resources/application-test.yml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06_springboot_mybatis_plus/src/main/java/com/kk/mybatis_plus" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32205883" />
@@ -80,12 +116,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2022年\学习\计算机学习\Java\Review1\SpringBoot\06_springboot_mybatis_plus\src\main\java\com\kk\mybatis_plus" />
       <recent name="E:\2022年\学习\计算机学习\Java\Review1\SpringBoot\02_springboot_config\src\main\resources" />
       <recent name="E:\2022年\学习\计算机学习\Java\Review1\SpringBoot\02_springboot_config\src\main\resources\aaconfig" />
       <recent name="E:\2022年\学习\计算机学习\Java\Review1\SpringBoot\02_springboot_config\src\main\resources\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2022年\学习\计算机学习\Java\Review1\SpringBoot\02_springboot_config\src\main\resources\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kk.mybatis_plus.pojo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,7 +135,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.Application (7)">
+    <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05_springboot_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kk.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.kk.mybatis.ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="01_springboot_createB" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.create.Application" />
@@ -124,6 +180,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="04_springboot_junit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.junit.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (6)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="05_springboot_mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.mybatis.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (7)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="06_springboot_mybatis_plus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.mybatis_plus.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="03_springboot_configuration" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.configuration.Application" />
@@ -139,7 +216,16 @@
       <item itemvalue="Spring Boot.Application (2)" />
       <item itemvalue="Spring Boot.Application (3)" />
       <item itemvalue="Spring Boot.Application (4)" />
+      <item itemvalue="Spring Boot.Application (5)" />
+      <item itemvalue="Spring Boot.Application (6)" />
+      <item itemvalue="JUnit.ApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.Application (7)" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -150,7 +236,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663258334089</updated>
       <workItem from="1663258335545" duration="5424000" />
-      <workItem from="1663300608200" duration="1266000" />
+      <workItem from="1663300608200" duration="6117000" />
     </task>
     <task id="LOCAL-00001" summary="多环境配置">
       <created>1663300754923</created>
@@ -159,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663300754923</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="读取配置文件：&#10;1.@Value(value = &quot;${}&quot;)&#10;2.Environment.getProperty(&quot;&quot;)&#10;4.@ConfigurationProperties + @Component ---&gt; 通过 Setter 注入配置信息所以需要 + @Data">
+      <created>1663302033828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663302033828</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +273,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="多环境配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="多环境配置" />
+    <MESSAGE value="读取配置文件：&#10;1.@Value(value = &quot;${}&quot;)&#10;2.Environment.getProperty(&quot;&quot;)&#10;4.@ConfigurationProperties + @Component ---&gt; 通过 Setter 注入配置信息所以需要 + @Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="读取配置文件：&#10;1.@Value(value = &quot;${}&quot;)&#10;2.Environment.getProperty(&quot;&quot;)&#10;4.@ConfigurationProperties + @Component ---&gt; 通过 Setter 注入配置信息所以需要 + @Data" />
   </component>
 </project>
