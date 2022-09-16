@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbd8d2ba-f339-4f39-9bf1-818654e86e8f" name="Changes" comment="SpringBoot 打包：&#10;1. 打包需要使用到 spring-boot-maven-plugin 插件，否则打出来的包缺少必要的 start-class 和 main-class 无法正常启动&#10;2. 使用 java -jar 即可启动打包的 jar 包">
-      <change afterPath="$PROJECT_DIR$/09_springboot_log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_springboot_log/src/main/java/com/kk/log/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_springboot_log/src/main/java/com/kk/log/controller/LogController1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_springboot_log/src/main/java/com/kk/log/controller/LogController2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_springboot_log/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_springboot_log/src/test/java/com/kk/log/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbd8d2ba-f339-4f39-9bf1-818654e86e8f" name="Changes" comment="SpringBoot 日志：&#10;1. 记录日志的第一种方式：private static final Logger log = LoggerFactory.getLogger(xxx.class) + log.info/warn/debug/error&#10;2. 记录日志的第二种方式：使用 lombok 提供的 @Slf4j 注解就可以不用写 private static final Logger log = LoggerFactory.getLogger(xxx.class) 这个自动帮你写好&#10;3. 日志输出格式控制：application.yml + logging.pattern.console: &quot;%d - %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n&quot;&#10;4. 将日志记录到文件当中：logging.file.name: server.log&#10;5. 自定义日志文件属性：&#10;logging:&#10;  pattern:&#10;    console: &quot;%d - %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n&quot;&#10;  file:&#10;    name: server.log&#10;  logback:&#10;    rollingpolicy:&#10;      max-file-size: 3KB&#10;      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +139,7 @@
       <workItem from="1663258335545" duration="5424000" />
       <workItem from="1663300608200" duration="6816000" />
       <workItem from="1663312249491" duration="55000" />
-      <workItem from="1663312314847" duration="2348000" />
+      <workItem from="1663312314847" duration="2378000" />
     </task>
     <task id="LOCAL-00001" summary="多环境配置">
       <created>1663300754923</created>
@@ -188,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663312966138</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SpringBoot 日志：&#10;1. 记录日志的第一种方式：private static final Logger log = LoggerFactory.getLogger(xxx.class) + log.info/warn/debug/error&#10;2. 记录日志的第二种方式：使用 lombok 提供的 @Slf4j 注解就可以不用写 private static final Logger log = LoggerFactory.getLogger(xxx.class) 这个自动帮你写好&#10;3. 日志输出格式控制：application.yml + logging.pattern.console: &quot;%d - %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n&quot;&#10;4. 将日志记录到文件当中：logging.file.name: server.log&#10;5. 自定义日志文件属性：&#10;logging:&#10;  pattern:&#10;    console: &quot;%d - %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n&quot;&#10;  file:&#10;    name: server.log&#10;  logback:&#10;    rollingpolicy:&#10;      max-file-size: 3KB&#10;      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log">
+      <created>1663314699700</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663314699700</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +208,7 @@
     <MESSAGE value="SpringBoot 整合第三方技术：&#10;1. 整合 junit：@SpringBootTest + @Test&#10;2. 整合 mybatis：@Mapper + @Select&#10;3. 整合 mybatis-plus：IService&lt;T&gt; + ServiceImpl&lt;M, T&gt;" />
     <MESSAGE value="SpringBoot 整合第三方技术：&#10;1. 整合 junit：@SpringBootTest + @Test&#10;2. 整合 mybatis：@Mapper + @Select&#10;3. 整合 mybatis-plus：IService&lt;T&gt; + ServiceImpl&lt;M, T&gt;&#10;4. 整合 druid" />
     <MESSAGE value="SpringBoot 打包：&#10;1. 打包需要使用到 spring-boot-maven-plugin 插件，否则打出来的包缺少必要的 start-class 和 main-class 无法正常启动&#10;2. 使用 java -jar 即可启动打包的 jar 包" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 打包：&#10;1. 打包需要使用到 spring-boot-maven-plugin 插件，否则打出来的包缺少必要的 start-class 和 main-class 无法正常启动&#10;2. 使用 java -jar 即可启动打包的 jar 包" />
+    <MESSAGE value="SpringBoot 日志：&#10;1. 记录日志的第一种方式：private static final Logger log = LoggerFactory.getLogger(xxx.class) + log.info/warn/debug/error&#10;2. 记录日志的第二种方式：使用 lombok 提供的 @Slf4j 注解就可以不用写 private static final Logger log = LoggerFactory.getLogger(xxx.class) 这个自动帮你写好&#10;3. 日志输出格式控制：application.yml + logging.pattern.console: &quot;%d - %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n&quot;&#10;4. 将日志记录到文件当中：logging.file.name: server.log&#10;5. 自定义日志文件属性：&#10;logging:&#10;  pattern:&#10;    console: &quot;%d - %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n&quot;&#10;  file:&#10;    name: server.log&#10;  logback:&#10;    rollingpolicy:&#10;      max-file-size: 3KB&#10;      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 日志：&#10;1. 记录日志的第一种方式：private static final Logger log = LoggerFactory.getLogger(xxx.class) + log.info/warn/debug/error&#10;2. 记录日志的第二种方式：使用 lombok 提供的 @Slf4j 注解就可以不用写 private static final Logger log = LoggerFactory.getLogger(xxx.class) 这个自动帮你写好&#10;3. 日志输出格式控制：application.yml + logging.pattern.console: &quot;%d - %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n&quot;&#10;4. 将日志记录到文件当中：logging.file.name: server.log&#10;5. 自定义日志文件属性：&#10;logging:&#10;  pattern:&#10;    console: &quot;%d - %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n&quot;&#10;  file:&#10;    name: server.log&#10;  logback:&#10;    rollingpolicy:&#10;      max-file-size: 3KB&#10;      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log" />
   </component>
 </project>
