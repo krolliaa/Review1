@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd8d2ba-f339-4f39-9bf1-818654e86e8f" name="Changes" comment="SpringBoot 整合第三方技术：&#10;1. 整合 junit：@SpringBootTest + @Test&#10;2. 整合 mybatis：@Mapper + @Select&#10;3. 整合 mybatis-plus：IService&lt;T&gt; + ServiceImpl&lt;M, T&gt;&#10;4. 整合 druid">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_springboot_druid/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_springboot_druid/src/main/java/com/kk/druid/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_springboot_druid/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_springboot_druid/src/test/java/com/kk/druid/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_springboot_package/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_springboot_package/src/main/java/com/kk/package_package/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_springboot_package/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_springboot_package/src/test/java/com/kk/package_package/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_springboot_package/target/package_package-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -171,6 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (9)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="08_springboot_package" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.package_package.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="03_springboot_configuration" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.configuration.Application" />
@@ -191,6 +197,7 @@
       <item itemvalue="Spring Boot.Application (6)" />
       <item itemvalue="Spring Boot.Application (7)" />
       <item itemvalue="Spring Boot.Application (8)" />
+      <item itemvalue="Spring Boot.Application (9)" />
     </list>
     <recent_temporary>
       <list>
@@ -209,6 +216,7 @@
       <workItem from="1663258335545" duration="5424000" />
       <workItem from="1663300608200" duration="6816000" />
       <workItem from="1663312249491" duration="55000" />
+      <workItem from="1663312314847" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="多环境配置">
       <created>1663300754923</created>
@@ -231,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663311629027</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SpringBoot 整合第三方技术：&#10;1. 整合 junit：@SpringBootTest + @Test&#10;2. 整合 mybatis：@Mapper + @Select&#10;3. 整合 mybatis-plus：IService&lt;T&gt; + ServiceImpl&lt;M, T&gt;&#10;4. 整合 druid">
+      <created>1663312318864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663312318864</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

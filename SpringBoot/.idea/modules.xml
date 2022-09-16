@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/05_springboot_mybatis/05_springboot_mybatis.iml" filepath="$PROJECT_DIR$/05_springboot_mybatis/05_springboot_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_springboot_mybatis_plus/06_springboot_mybatis_plus.iml" filepath="$PROJECT_DIR$/06_springboot_mybatis_plus/06_springboot_mybatis_plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_springboot_druid/07_springboot_druid.iml" filepath="$PROJECT_DIR$/07_springboot_druid/07_springboot_druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_springboot_package/08_springboot_package.iml" filepath="$PROJECT_DIR$/08_springboot_package/08_springboot_package.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
     </modules>
   </component>
